@@ -46,6 +46,6 @@ FinalWebPrj_ChuckNorris/
 Contributions are welcome! Please open an issue or submit a pull request with your changes.
 
 ## License
-This project is not licensed. If you need a license, please add it to your repository.
+This project is not licensed.
 
 You can find the repository [here](https://github.com/LaithMimi/FinalWebPrj_ChuckNorris).
