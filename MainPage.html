@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris</title>
+    <link rel="stylesheet" href="MainPage.css">
+</head>
+<body>
+    <header>
+    <!-- section A -->
+        <h1 id="student-info">Laith Mimi - ID: 213923931</h1>
+    </header>
+    <main>
+        <div class="content-wrapper">
+            <div class="bio-section">
+                <!-- section C -->
+                <div class="chuck-image">
+                    <img id="random-chuck" alt="Random Chuck Norris Image">
+                </div>
+                <!-- section B -->
+                <div class="chuck-bio">
+                    <p>Chuck Norris is an American martial artist, actor, film producer, and screenwriter. After serving in the United States Air Force,
+                         he won many martial arts championships and later founded his own discipline Chun Kuk Do.
+                          Norris is also known for playing the starring role in the television series Walker,
+                           Texas Ranger from 1993 to 2001.</p>
+                </div>
+            </div>
+
+            <div class="movies-section">
+                <!-- Section D -->
+                <table id="movies-table">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Year</th>
+                            <th>Role</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <!-- section E -->
+                <div class="filter-controls">
+                    <input type="text" id="year-filter" placeholder="Enter year (YYYY)">
+                    <button id="filter-btn">Filter</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="joke-section">
+            <!-- section F -->
+            <div id="joke-display"></div>
+        </div>
+        <!-- section G -->
+        <div class="joke-controls">
+            <button id="get-joke">Get Joke</button>
+            <button id="like-joke" disabled>Like</button>
+            <button id="dislike-joke" disabled>Dislike</button>
+            <button id="clear-joke" disabled>Clear</button>
+        </div>
+    </main>
+
+    <script src="ChuckMovies.js"></script>
+    <script src="MainPage.js"></script>
+</body>
+</html>
